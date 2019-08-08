@@ -1,0 +1,6 @@
+framework module divSAMPLE {
+  umbrella header "divSAMPLE-umbrella.h"
+
+  export *
+  module * { export * }
+}
