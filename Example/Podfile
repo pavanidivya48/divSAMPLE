@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'divSAMPLE_Example' do
+  pod 'divSAMPLE', :path => '../'
+
+  target 'divSAMPLE_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
